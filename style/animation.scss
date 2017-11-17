@@ -39,6 +39,21 @@ $border: 7px solid white;
     }
 }
 
+@keyframes bg-change {
+    5% {
+        background-image: url(../img/bg.jpg)
+    }
+    45% {
+        background-image: url(../img/bg.jpg)
+    }
+    55% {
+        background-image: url(../img/bg2.jpg)
+    }
+    95% {
+        background-image: url(../img/bg2.jpg)
+    }
+}
+
 @keyframes nav-animation-border-top-right {
     0% {
         border-right: $border;
@@ -80,48 +95,47 @@ $border: 7px solid white;
 }
 
 @keyframes contact-animation-border-top-right {
-  0% {
-      border-right: $border;
-      width: 0;
-      height: 0;
-  }
-  50% {
-      border-top: $border;
-      border-right: $border;
-      width: 300px;
-      height: 0px;
-  }
-  100% {
-      border-top: $border;
-      border-right: $border;
-      width: 300px;
-      height: 300px;
-  }
+    0% {
+        border-right: $border;
+        width: 0;
+        height: 0;
+    }
+    50% {
+        border-top: $border;
+        border-right: $border;
+        width: 300px;
+        height: 0px;
+    }
+    100% {
+        border-top: $border;
+        border-right: $border;
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @keyframes contact-animation-border-bottom-left {
-  0% {
-      border-bottom: $border;
-      width: 0;
-      height: 0;
-  }
-  50% {
-      border-bottom: $border;
-      border-left: $border;
-      width: 0px;
-      height: 300px;
-  }
-  100% {
-      border-bottom: $border;
-      border-left: $border;
-      width: 300px;
-      height: 300px;
-  }
+    0% {
+        border-bottom: $border;
+        width: 0;
+        height: 0;
+    }
+    50% {
+        border-bottom: $border;
+        border-left: $border;
+        width: 0px;
+        height: 300px;
+    }
+    100% {
+        border-bottom: $border;
+        border-left: $border;
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @keyframes animation-display {
     from {
-      
         color: rgba(0, 0, 0, 0);
     }
     to {
