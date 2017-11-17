@@ -1,0 +1,131 @@
+$border: 7px solid white;
+@keyframes header-animation-border-top-right {
+    0% {
+        border-right: $border;
+        width: 0;
+        height: 0;
+    }
+    50% {
+        border-top: $border;
+        border-right: $border;
+        width: 200px;
+        height: 0px;
+    }
+    100% {
+        border-top: $border;
+        border-right: $border;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@keyframes header-animation-border-bottom-left {
+    0% {
+        border-bottom: $border;
+        width: 0;
+        height: 0;
+    }
+    50% {
+        border-bottom: $border;
+        border-left: $border;
+        width: 0px;
+        height: 200px;
+    }
+    100% {
+        border-bottom: $border;
+        border-left: $border;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@keyframes nav-animation-border-top-right {
+    0% {
+        border-right: $border;
+        width: 0;
+        height: 0;
+    }
+    50% {
+        border-top: $border;
+        border-right: $border;
+        width: 100px;
+        height: 0px;
+    }
+    100% {
+        border-top: $border;
+        border-right: $border;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@keyframes nav-animation-border-bottom-left {
+    0% {
+        border-bottom: $border;
+        width: 0;
+        height: 0;
+    }
+    50% {
+        border-bottom: $border;
+        border-left: $border;
+        width: 0px;
+        height: 100px;
+    }
+    100% {
+        border-bottom: $border;
+        border-left: $border;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@keyframes contact-animation-border-top-right {
+  0% {
+      border-right: $border;
+      width: 0;
+      height: 0;
+  }
+  50% {
+      border-top: $border;
+      border-right: $border;
+      width: 300px;
+      height: 0px;
+  }
+  100% {
+      border-top: $border;
+      border-right: $border;
+      width: 300px;
+      height: 300px;
+  }
+}
+
+@keyframes contact-animation-border-bottom-left {
+  0% {
+      border-bottom: $border;
+      width: 0;
+      height: 0;
+  }
+  50% {
+      border-bottom: $border;
+      border-left: $border;
+      width: 0px;
+      height: 300px;
+  }
+  100% {
+      border-bottom: $border;
+      border-left: $border;
+      width: 300px;
+      height: 300px;
+  }
+}
+
+@keyframes animation-display {
+    from {
+      
+        color: rgba(0, 0, 0, 0);
+    }
+    to {
+        color: white;
+        background: black;
+    }
+}

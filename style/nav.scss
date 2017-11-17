@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    &::before {
+        position: absolute;
+        content: "";
+        animation: nav-animation-border-top-right 1s linear;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        animation: nav-animation-border-bottom-left 1s linear;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+        border-radius: 50%;
+    }
+    .hamburger {
+        animation: animation-display 1s linear;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+        color: rgba(0, 0, 0, 0);
+    }
+}
